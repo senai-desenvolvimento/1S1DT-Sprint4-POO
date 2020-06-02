@@ -1,0 +1,13 @@
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\bin\Debug\netcoreapp3.1\Aula08Abstracao.exe
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\bin\Debug\netcoreapp3.1\Aula08Abstracao.deps.json
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\bin\Debug\netcoreapp3.1\Aula08Abstracao.runtimeconfig.json
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\bin\Debug\netcoreapp3.1\Aula08Abstracao.runtimeconfig.dev.json
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\bin\Debug\netcoreapp3.1\Aula08Abstracao.dll
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\bin\Debug\netcoreapp3.1\Aula08Abstracao.pdb
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\obj\Debug\netcoreapp3.1\Aula08Abstracao.csprojAssemblyReference.cache
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\obj\Debug\netcoreapp3.1\Aula08Abstracao.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\obj\Debug\netcoreapp3.1\Aula08Abstracao.AssemblyInfoInputs.cache
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\obj\Debug\netcoreapp3.1\Aula08Abstracao.AssemblyInfo.cs
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\obj\Debug\netcoreapp3.1\Aula08Abstracao.dll
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\obj\Debug\netcoreapp3.1\Aula08Abstracao.pdb
+C:\Users\Paulo Brandão\Documents\SENAI\1S1DT-Sprint4-POO\Aula08Abstracao\obj\Debug\netcoreapp3.1\Aula08Abstracao.genruntimeconfig.cache
