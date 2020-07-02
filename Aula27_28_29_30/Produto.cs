@@ -100,15 +100,51 @@ namespace Aula27_28_29_30
             linhas.RemoveAll(l => l.Contains(_termo));
 
             // Reescrevemos nosso csv do zero
+            ReescreverCSV(linhas);
+        }
+        
+        /// <summary>
+        /// Altera um produto
+        /// </summary>
+        /// <param name="_produtoAlterado">Objeto de Produto</param>
+        public void Alterar(Produto _produtoAlterado){
+
+            // Criamos uma lista que servirá como uma espécie de backup para as linhas do csv
+            List<string> linhas = new List<string>();
+
+            // Utilizamos a bliblioteca StreamReader para ler nosso .csv
+            using(StreamReader arquivo = new StreamReader(PATH))
+            {
+                string linha;
+                while((linha = arquivo.ReadLine()) != null)
+                {
+                    linhas.Add(linha);
+                }
+            }
+            // codigo=2;nome=Ibanez;preco=7500
+            // linhas.RemoveAll(z => z.Split(";")[0].Contains(_produtoAlterado.Codigo.ToString()));
+            
+            // codigo= 2; nome=Ibanez;preco=7500
+            linhas.RemoveAll(z => z.Split(";")[0].Split("=")[1] == _produtoAlterado.Codigo.ToString());
+
+            // Adicionamos a linha alterada na lista de backup
+            linhas.Add( PrepararLinha(_produtoAlterado) );
+
+            // Reescrevemos nosso csv do zero
+            ReescreverCSV(linhas);         
+        }
+
+
+        private void ReescreverCSV(List<string> lines){
+            // Reescrevemos nosso csv do zero
             using(StreamWriter output = new StreamWriter(PATH))
             {
-                foreach(string ln in linhas)
+                foreach(string ln in lines)
                 {
                     output.Write(ln + "\n");
                 }
-            }
+            }   
         }
-
 
         public List<Produto> Filtrar(string _nome)
         {
